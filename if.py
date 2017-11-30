@@ -13,19 +13,18 @@ elif age < 40:
 	# If age is greater or equal to 10 but less than 40
 	print('You are somewhat mature')
 else:
-	# kind of catch all if above are false
+	# If we reach here that means age is greater than or equal to 40
 	print('You are wise beyond dooubt!!')
 
-meat = input('Do you eat fish?(y/n):')
-
-
-
+fish = input('Do you eat fish?(y/n):')
+	#Ask user whether he eats fish or not
 if meat == 'y':
-
+	
+	#user eats fish
 	print('You are a non-vegetarian')
 
 else :
-
+	#user doesn't eat fish
 	print('You are a vegetarian')
 
 
