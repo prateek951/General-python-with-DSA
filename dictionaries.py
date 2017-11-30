@@ -9,13 +9,9 @@ print(ninja_belts['ryu'])
 print('yoshi' in ninja_belts) 
 print(ninja_belts.keys()) 
 print(list(ninja_belts.keys())
-
-print(ninja_belts.values()) # return red,black
-
+print(ninja_belts.values())
 vals = list(ninja_belts.values())
-
 # Find the instances of a particular value
-
 print(vals.count('red')) 	# 1
 
 # ADDING A NEW NINJA TO THE DICTIONARY
