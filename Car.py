@@ -10,8 +10,6 @@ class Car:
 
 		self.model = model
 
-		#BOOLEAN FOR SETTING WHETHER THE CAR RUNS ON PETROL
-
 		self.runsOnPetrol = runsOnPetrol
 
 		self.speed = speed
