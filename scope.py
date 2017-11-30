@@ -12,6 +12,6 @@ def print_name():
 
 print_name() 	#invoke the function
 
-print('Outside the function the name is',my_name)
+print('Outside the function the name is',my_name)	#Outside the function also know the name is prateek since we overrided the global version of
 
-	#prateek
+#my_name in the method print_name
