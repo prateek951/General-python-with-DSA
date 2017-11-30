@@ -1,19 +1,8 @@
 ninjas = ['Ryu','crystal','yoshi','ken']
 
 for ninja in ninjas:
-	
 	print(ninja)
-
-# output
-
-	# Ryu
-	# crystal
-	# yoshi
-	# ken
-
-#CYCLING THROUGH A PORTION OF SPECIFIC LIST
-
-
+#CYCLE THROUGH A BY SLICING THE COLLECTION ABOVE
 for ninja in ninjas[1:3]:
 	
 	print(ninja)
