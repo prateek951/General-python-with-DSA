@@ -26,8 +26,6 @@ class Car:
 
 		else 
 			print('The car is relatively slow REJECTED!!')
-		
-# CREATE A NEW CAR INSTACE
 
 mercedes = Car('Mercedes','E-CLASS',True,500)
 
