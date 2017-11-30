@@ -1,15 +1,9 @@
 ninjas = {}
-
 while True:
 	
 	ninja_name = input('Enter the ninja name')
-
 	ninja_belt = input('Enter the ninja belt')
-
 	ninjas[ninja_name] = ninja_belt
-
-	# Type y to stop entering ninjas
-
 	choice = input('Want more ninjas')
 
 	if choice == 'y':
