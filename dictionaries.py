@@ -13,9 +13,6 @@ print(ninja_belts.values())
 vals = list(ninja_belts.values())
 print(vals.count('red'))
 ninja_belts['yoshi'] = 'red'
-
-# ALTERNATE WAY OF DEFINING NEW DICTIONARY
-
 person = dict(name ='Prateek',age=21,height='6ft')
 
 
