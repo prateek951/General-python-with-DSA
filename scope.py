@@ -1,7 +1,3 @@
-#LOCAL SCOPE
-
-
-
 my_name = 'ryu' #GLOBAL SCOPE VARIABLE
 
 
