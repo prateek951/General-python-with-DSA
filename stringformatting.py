@@ -3,7 +3,7 @@
 num1 = 3.142	#Value of pie is stored in num1
 num2 = 10.2903948	
 
-#PREVIOUS
+#Normal way of printing out to console
 
 print('Number 1 is',num1,'Number 2 is',num2)
 
