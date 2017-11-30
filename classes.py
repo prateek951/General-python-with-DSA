@@ -8,7 +8,7 @@
 
 # type(age) #Number
 
-# type(nums) #List
+
 
 
 
