@@ -35,8 +35,7 @@ class Planet:
 			return f'The planet spins at {speed}'
 
 
-# CREATE A NEW INSTANCE OF THE CLASS
-
+# Create a new instance of the Planet class to set the values for the pluto object
 pluto = Planet('Pluto',4000,40000,7.6,'Solar System')
 
 # neptune = Planet('Neptune',40000,44444,8.4,'Solar System')
