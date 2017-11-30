@@ -5,8 +5,7 @@ ninja_belts = {
 	"ryu" : 'black'
 }
 print(ninja_belts['crystal'])	
-print(ninja_belts['ryu']) #black
-
+print(ninja_belts['ryu'])
 print('yoshi' in ninja_belts) #yoshi is not in the dictionary
 
 print(ninja_belts.keys()) # returns the keys of the dictionary
