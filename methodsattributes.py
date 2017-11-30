@@ -5,9 +5,11 @@ class Planet:
 	#shape is a class variable is shared equally among all the instances of the class
 	
 # 	"""docstring for Planet"""
+
+	# __init__ is just like constructor function in other programming languages which is invoked as soon as a new instance of the class is created!
 	def __init__(self, name,radius,age,gravity,system):
 
-		# INSTANCE ATTRIBUTES WHICH ARE DIFFERENT FOR EACH INSTANCE
+		# 
 
 		self.name = name
 		self.radius = radius
