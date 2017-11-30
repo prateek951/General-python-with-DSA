@@ -10,7 +10,7 @@
 
 # type(nums) #List
 
-# print(name.upper())	#SHAUN
+
 
 
 # CLASSES
