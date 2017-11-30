@@ -1,12 +1,19 @@
 nums = [1,2,33,322,11,94]
 
-sorted(nums)
+sorted(nums)	# Sorts the array
 
-#COLLECTION OF ITEMS WHICH DON'T ALLOW DUPLICATES IS KNOWN AS A SET
+for num in nums
+	print(num)	# Prints the numbers in sorted order
 
-# SETS DO NOT PRESERVE ORDER
+#Collection of items which don't allow duplicates is known as a set!
+#Sets do not preserve order
 
 set(nums)
+#Makes a set of the nums array
+
+for num in nums
+	print(num)	# Print the numbers in any order since it is a set each time we will get a different order in which the items get printed
+
 
 # CREATE A DICTIONARY
 
