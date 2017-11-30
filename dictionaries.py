@@ -1,7 +1,3 @@
-
-
-# SAME AS JS OBJECT notation
-
 ninja_belts = {
 	
 	"crystal" : 'red',
