@@ -1,5 +1,3 @@
-# create an empty dictionary
-
 ninjas = {}
 
 while True:
