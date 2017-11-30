@@ -17,18 +17,16 @@ class Planet:
 		self.age = age 
 		self.gravity = gravity 
 		self.system = system 
-
-
-		# CLASS METHOD
-
+		
+		#This defines a class method!
 		@classmethod
-
+		# Here cls variable is accessing the class variable shape in the classmethod
 		def commons(cls):
 			
 			return f'All planets are {cls.shape} in shape because of gravity'
-
+		
+		#This defines a static method!
 		@staticmethod
-
 
 		#METHOD HAS ACCESS ONLY TO THE PARAMETERS THAT WE PASS IT INDIVIDUALLY
 
