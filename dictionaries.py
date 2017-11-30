@@ -4,9 +4,7 @@ ninja_belts = {
 
 	"ryu" : 'black'
 }
-
-print(ninja_belts['crystal'])	#red
-
+print(ninja_belts['crystal'])	
 print(ninja_belts['ryu']) #black
 
 print('yoshi' in ninja_belts) #yoshi is not in the dictionary
