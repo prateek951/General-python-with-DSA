@@ -1,8 +1,6 @@
 # STRING FORMATTING
 
-
-num1 = 3.142	#Value of pie stored in num1
-
+num1 = 3.142	#Value of pie is stored in num1
 num2 = 10.2903948	
 
 #PREVIOUS
