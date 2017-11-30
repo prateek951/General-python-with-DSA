@@ -5,8 +5,7 @@ num = 0
 while num<age:
 
 	print('Your age is about to reach the age we know',num)
-
-	num++
+	num++		#EACH TIME TELL THE AGE OF THE PERSON AND INCREMENT IT BY IT SO AS TO GET CLOSER TO THE TARGET
 
 # WHEN AGE REACHES 25,IT BREAKS OUT FROM THE LOOP
 
