@@ -1,13 +1,10 @@
 my_name = 'ryu' #GLOBAL SCOPE VARIABLE
 
-
 def print_name():
 
-	#HERE WE ARE OVERRIDING THE GLOBAL VARIABLE
+	global my_name	#Using the same my_name variable that is defined outside this block at the top!
 
-	global my_name
-
-	my_name = 'prateek'
+	my_name = 'prateek'	#Here we are overriding the global variable(so now 
 
 	print('The name inside the function is',my_name)
 
