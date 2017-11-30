@@ -22,7 +22,7 @@ while num<age:
 		continue #Abandon the current iteration and begin with the new iteration
 
 	if num%2==0:
-		
+		#Check for evenness of the n
 		print('Your age is even',num)
 
 		if num > 10
