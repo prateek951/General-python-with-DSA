@@ -7,13 +7,15 @@ greet() # Using parenthesis after the name of the function triggers the code pro
 
 greet()	# You can trigger the code property of the function any number of times 
 
+#Function with arguments
+
 def greet(name,time):
 	
-	print(f'Good {time} {name}')
+	print(f'Good {time} {name}') 
 
-greet('Prateek','Morning')
+greet('Prateek','Morning')	# Triggers the greet function with arguments by passing Prateek and Morning as parameters
 
-#Good Morning Prateek
+# OUTPUT -- Good Morning Prateek
 
 name = input('Enter the name of the person')
 
