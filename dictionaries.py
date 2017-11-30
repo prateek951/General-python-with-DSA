@@ -12,8 +12,6 @@ print(list(ninja_belts.keys())
 print(ninja_belts.values())
 vals = list(ninja_belts.values())
 print(vals.count('red'))
-# ADDING A NEW NINJA TO THE DICTIONARY
-
 ninja_belts['yoshi'] = 'red'
 
 # ALTERNATE WAY OF DEFINING NEW DICTIONARY
