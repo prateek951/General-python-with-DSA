@@ -1,10 +1,10 @@
 for n in range(5):
 	
-	#loop over from 0 to 5(exclusive)
+	#Looping over the range from 0 to 5-1(excluding 5)
 
 	print(n)
 
-	# 0 1 2 3 4
+	# 0 1 2 3 4 is the output
 
 
 for n in range(3,10):
