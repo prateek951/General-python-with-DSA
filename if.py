@@ -18,7 +18,7 @@ else:
 
 fish = input('Do you eat fish?(y/n):')
 	#Ask user whether he eats fish or not
-if meat == 'y':
+if fish == 'y':
 	
 	#user eats fish
 	print('You are a non-vegetarian')
