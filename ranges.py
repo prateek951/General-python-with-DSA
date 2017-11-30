@@ -22,7 +22,7 @@ for friend in range(len(friends)):	#len(friends) the length of the array and the
 
 		print(friends[friend])
 
-# REVERSE LOOP
+# Running the loop in reverse order.For the last item in the array,indexing begins from -1 and each time we decrement by 1 
 
 for n in range(len(friends)-1,-1,-1):
 	
