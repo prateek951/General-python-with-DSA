@@ -7,11 +7,6 @@ for ninja in ninjas[1:3]:
 	
 	print(ninja)
 
-# output
-
-	#crystal
-	#yoshi
-
 for ninja in ninjas:
 
 	if ninja == 'Ryu':
