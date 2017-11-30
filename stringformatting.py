@@ -22,10 +22,7 @@ print('Number 1 is {0:3} and Number 2 is {1}'.format(num1,num2))
 
 print('Number 1 is {0:3f} and Number 2 is {1}'.format(num1,num2))
 
-# USING THE F-STRINGS
-
-# FOR GETTINGS 4 DECIMAL PLACES
-
+# Using the f-strings for getting the numbers upto 4 decimal places
 print('Number 1 is {num1:4f} and Number 2 is {num2:4f}')
 
 
