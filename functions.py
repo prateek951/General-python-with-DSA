@@ -2,12 +2,10 @@ def greet():
 	
 	print('Hello World')
 
+	#def is used to define functions in python
+greet() # Using parenthesis after the name of the function triggers the code property of the function	
 
-greet()	#INVOKE THE GREET FUNCTION
-
-
-greet()	# CAN BE INVOKED ANY NUMBER OF TIMES
-
+greet()	# You can trigger the code property of the function any number of times 
 
 def greet(name,time):
 	
