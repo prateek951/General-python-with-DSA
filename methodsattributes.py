@@ -9,8 +9,9 @@ class Planet:
 	# __init__ is just like constructor function in other programming languages which is invoked as soon as a new instance of the class is created!
 	def __init__(self, name,radius,age,gravity,system):
 
-		# 
-
+		#self refers to the instance which invoked the this __init__ function and sets the values for every instance of the class when it
+		#is created
+		
 		self.name = name
 		self.radius = radius
 		self.age = age 
