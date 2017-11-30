@@ -11,12 +11,7 @@ for ninja in ninjas:
 
 	if ninja == 'Ryu':
 
-		#hey I am ryu here inside
-
-		print(f'{ninja} - black belt')
-
-		#Ryu - black belt
-
+		print(f'{ninja} - black belt'
 		break;
 
 	else:
