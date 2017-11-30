@@ -8,8 +8,6 @@ class Car:
 
 		self.name = name
 
-		# SETTING THE MODEL OF THE CAR INSTANCE
-
 		self.model = model
 
 		#BOOLEAN FOR SETTING WHETHER THE CAR RUNS ON PETROL
