@@ -7,9 +7,7 @@ ninja_belts = {
 print(ninja_belts['crystal'])	
 print(ninja_belts['ryu'])
 print('yoshi' in ninja_belts) 
-
-print(ninja_belts.keys()) # returns the keys of the dictionary
-
+print(ninja_belts.keys()) 
 print(list(ninja_belts.keys()) #typecasting it as a result
 
 print(ninja_belts.values()) # return red,black
