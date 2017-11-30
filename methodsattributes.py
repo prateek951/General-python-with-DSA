@@ -57,6 +57,6 @@ print(pluto.commons())
 
 # Using classname we cannot access instance methods but we can access static and class methods using the classname
 
-print(Planet.spin('a very high speed'))	# IT CAN BE USED ON THE CLASS ITSELF  #RUNS PERFECTLY
+print(Planet.spin('a very high speed'))	#Using the classname we can fire static methods
 
 print(pluto.spin('a very ultimate method'))
