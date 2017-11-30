@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 # CLASSES
 
 class Planet:
