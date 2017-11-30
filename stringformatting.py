@@ -9,7 +9,7 @@ print('Number 1 is',num1,'Number 2 is',num2)
 
 # OUTPUT # Number 1 is 3.142 Number 2 is 10.2903948
 
-#NEW WAY
+#New way using the format method
 
 print('Number 1 is {0} and Number 2 is {1}'.format(num1,num2))
 
