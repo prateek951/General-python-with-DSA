@@ -11,16 +11,12 @@ for ninja in ninjas:
 
 	if ninja == 'Ryu':
 
-		print(f'{ninja} - black belt'
+		print(f'{ninja} - black belt')
 		break;
 
 	else:
-		
 		printf(ninja)
 			
-		#ken
-
-#BREAK KEYWORD TO BREAK OUT FROM THE LOOP
 
 
 
