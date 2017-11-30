@@ -1,7 +1,3 @@
-
-
-# lastname = input('Enter your lastname :')
-
 # age = input('Enter youtr age :')
 
 # print(name,'you are',age);	
