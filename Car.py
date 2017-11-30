@@ -5,7 +5,6 @@ class Car:
 
 	def __init__(self,args):
 
-		# SETTING THE NAME OF THE CAR INSTANCE
 
 		self.name = name
 
