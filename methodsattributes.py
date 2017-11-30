@@ -1,7 +1,7 @@
 class Planet:
 
-	shape = 'round'	# BECAUSE EVERY PLANET IS ROUND WE CAN MAKE IT AS THE CLASS VARIABLE OF OUR CLASS(STATIC IN OTHER LANGUAGES)
-
+	shape = 'round'	# Class variable indicates that all instances of the class Planet are round in shape
+	
 	"""docstring for Planet"""
 	def __init__(self, name,radius,age,gravity,system):
 
