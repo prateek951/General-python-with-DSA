@@ -16,7 +16,7 @@ for n in range(0,20,4):
 	print(n)
 	# 0 4 8 12 16 is the output each time we go into the loop we get an increment of 4
 
-friends = ['prateek','nischal','navneet']
+friends = ['prateek','nischal','navneet']	#An array of friends
 
 for friend in range(len(friends)):
 
