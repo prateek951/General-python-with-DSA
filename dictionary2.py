@@ -5,13 +5,10 @@ while True:
 	ninja_belt = input('Enter the ninja belt')
 	ninjas[ninja_name] = ninja_belt
 	choice = input('Want more ninjas')
-
 	if choice == 'y':
 	
 		continue
-	
 	else:
-		
 		break
 
 # NOW WE ARE HAVING A DICTIONARY OF NINJAS
