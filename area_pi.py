@@ -1,6 +1,4 @@
-
-
-# print(name,'you are',age);	
+	
 
 #prateek,you are 21
 
