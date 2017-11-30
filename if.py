@@ -2,23 +2,15 @@
 
 # <,>,==,!=,=>,=<
 
-age = input('Enter your age')
-
-# HERE age is A STRING REMEMBER
-
-# CONVERT IT INTO AN INTEGERT
-
-age = int(age)
-
+age = int(input('Enter your age'))	#The user inputs the age but that age is of String type so using int() we can typecast it!
+#CHECK FOR AGE
 if age < 10:
-		
-	#code block we want to run
 
+	# If age is less than 10
 	print('You are very young')
 
 elif age < 40:
-	# HERE THE AGE IS BETWEEN 10(INCLUSIVE) AND 40
-
+	# If age is greater or equal to 10 but less than 40
 	print('You are somewhat mature')
 else:
 	# kind of catch all if above are false
