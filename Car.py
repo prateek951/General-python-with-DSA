@@ -29,8 +29,6 @@ class Car:
 
 mercedes = Car('Mercedes','E-CLASS',True,500)
 
-# PRINT INFORMATION ABOUT THE CAR
-
 print(f'The name of the car is {mercedes.name}')
 
 print(f'The model of the car is {mercedes.model}')
