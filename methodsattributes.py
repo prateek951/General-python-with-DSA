@@ -50,12 +50,12 @@ print(Planet.shape)
 
 print(Planet.name) 	# error : Object Planet has no name
 
-
+#Using the class name you can invoke the class method
 print(Planet.commons())
-
+#Using the instance we created we can invoke the class method(no errors in this case also)
 print(pluto.commons())
 
-# WE CANNOT ACCESS INSTANCE METHOD USING CLASSNAME BUT WE CAN ACCESS CLASS METHODS
+# Using classname we cannot access instance methods but we can access static and class methods using the classname
 
 print(Planet.spin('a very high speed'))	# IT CAN BE USED ON THE CLASS ITSELF  #RUNS PERFECTLY
 
