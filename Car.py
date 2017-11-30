@@ -1,7 +1,7 @@
 class Car:
 
 
-	wheelsShape = 'Round'	# EVERY CAR'S WHEELS ARE ROUND IN SHAPE!!
+	wheelsShape = 'Round'	
 
 	def __init__(self,args):
 
