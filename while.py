@@ -24,13 +24,10 @@ while num<age:
 	if num%2==0:
 		#Check for evenness of the n
 		print('Your age is even',num)
-
+		#If age is even but it has exceeded 10 break out of outer if
 		if num > 10
-
 		break
-
 	else:
-		
 		print('Your age is odd',num)
 
 	num++
