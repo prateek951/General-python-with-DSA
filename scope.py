@@ -10,7 +10,7 @@ def print_name():
 
 	#prints prateek
 
-print_name()
+print_name() 	#invoke the function
 
 print('Outside the function the name is',my_name)
 
