@@ -4,7 +4,7 @@ class Planet:
 	
 	#shape is a class variable is shared equally among all the instances of the class
 	
-	"""docstring for Planet"""
+# 	"""docstring for Planet"""
 	def __init__(self, name,radius,age,gravity,system):
 
 		# INSTANCE ATTRIBUTES WHICH ARE DIFFERENT FOR EACH INSTANCE
