@@ -1,6 +1,5 @@
 class Car:
 
-	#CLASS VARIABLE
 
 	wheelsShape = 'Round'	# EVERY CAR'S WHEELS ARE ROUND IN SHAPE!!
 
