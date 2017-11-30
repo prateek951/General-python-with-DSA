@@ -2,6 +2,8 @@ class Planet:
 
 	shape = 'round'	# Class variable indicates that all instances of the class Planet are round in shape
 	
+	#shape is a class variable is shared equally among all the instances of the class
+	
 	"""docstring for Planet"""
 	def __init__(self, name,radius,age,gravity,system):
 
