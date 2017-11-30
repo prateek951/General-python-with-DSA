@@ -1,9 +1,3 @@
-
-
-# FOR LOOPS IN PYTHON
-
-#CYCLE THROUGH ALL THE NINJAS COLLECTION
-
 ninjas = ['Ryu','crystal','yoshi','ken']
 
 for ninja in ninjas:
