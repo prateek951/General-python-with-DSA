@@ -7,11 +7,9 @@ while num<age:
 	print('Your age is about to reach the age we know',num)
 	num++		#EACH TIME TELL THE AGE OF THE PERSON AND INCREMENT IT BY IT SO AS TO GET CLOSER TO THE TARGET
 
-# WHEN AGE REACHES 25,IT BREAKS OUT FROM THE LOOP
-
+#When num reaches to the value of age(25) it breaks out of the loop
 
 #CHECK FOR EVEN NUMBERS
-
 while num<age:
 
 	if num == 0
