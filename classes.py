@@ -6,7 +6,7 @@
 
 # type(name)	#String
 
-# type(age) #Number
+
 
 
 
