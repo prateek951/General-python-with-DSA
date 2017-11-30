@@ -1,7 +1,5 @@
 # WHILE LOOPS IN PYTHON
-
 age = 25
-
 num = 0
 
 while num<age:
