@@ -59,4 +59,5 @@ print(pluto.commons())
 
 print(Planet.spin('a very high speed'))	#Using the classname we can fire static methods
 
-print(pluto.spin('a very ultimate method'))
+print(pluto.spin('a very ultimate method'))	#Since static variables and methods are shared equally among all the objects of the class,
+#they can be invoked using the instances we created
