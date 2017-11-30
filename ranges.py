@@ -18,7 +18,7 @@ for n in range(0,20,4):
 
 friends = ['prateek','nischal','navneet']	#An array of friends
 
-for friend in range(len(friends)):
+for friend in range(len(friends)):	#len(friends) the length of the array and then we range it from 0 to length-1
 
 		print(friend,friends[friend])
 
