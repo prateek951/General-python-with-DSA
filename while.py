@@ -29,8 +29,6 @@ while num<age:
 		break
 	else:
 		print('Your age is odd',num)
-
 	num++
-
 printAgePrinter(2,33)
 check_even_odd(2,33)
