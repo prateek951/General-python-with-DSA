@@ -1,17 +1,24 @@
+#LOCAL SCOPE
+
+
+
 my_name = 'ryu' #GLOBAL SCOPE VARIABLE
+
 
 def print_name():
 
-	global my_name	#Using the same my_name variable that is defined outside this block at the top!
+	#HERE WE ARE OVERRIDING THE GLOBAL VARIABLE
 
-	my_name = 'prateek'	#Here we are overriding the global variable(so now my_name is now prateek both in the local as well as the global scope)
+	global my_name
+
+	my_name = 'prateek'
 
 	print('The name inside the function is',my_name)
 
-	#prints prateek
+	#prateek
 
-print_name() 	#invoke the function
+print_name()
 
-print('Outside the function the name is',my_name)	#Outside the function also know the name is prateek since we overrided the global version of
+print('Outside the function the name is',my_name)
 
-#my_name in the method print_name
+	#prateek
