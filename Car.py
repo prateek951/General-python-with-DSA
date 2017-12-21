@@ -1,14 +1,20 @@
 class Car:
 
+	#CLASS VARIABLE
 
-	wheelsShape = 'Round'	
+	wheelsShape = 'Round'	# EVERY CAR'S WHEELS ARE ROUND IN SHAPE!!
 
 	def __init__(self,args):
 
+		# SETTING THE NAME OF THE CAR INSTANCE
 
 		self.name = name
 
+		# SETTING THE MODEL OF THE CAR INSTANCE
+
 		self.model = model
+
+		#BOOLEAN FOR SETTING WHETHER THE CAR RUNS ON PETROL
 
 		self.runsOnPetrol = runsOnPetrol
 
@@ -26,8 +32,12 @@ class Car:
 
 		else 
 			print('The car is relatively slow REJECTED!!')
+		
+# CREATE A NEW CAR INSTACE
 
 mercedes = Car('Mercedes','E-CLASS',True,500)
+
+# PRINT INFORMATION ABOUT THE CAR
 
 print(f'The name of the car is {mercedes.name}')
 
