@@ -1,87 +1,25 @@
+# FROM planet MODULE WITHIN THE SPACE PACKAGE IMPORT PLANET CLASS
 
-# CLASSES
+from space.planet import Planet
 
-class Planet:
+# import the calc module
 
-	# CONSTRUCTOR (IT RUNS WHEN INSTANCE OF THE CLASS IS CREATED)
+#import the planet_mass method and planet_vol methods
 
-	def __init__(self):	
-		
-		#SET THE INSTANCE PROPERTIES WHEN IT IS INSTANTIATED
+from space.cal import planet_mass,planet_vol
 
-		self.name = 'Earth'
-		self.radius = 200000
-		self.gravity = 9.8
-		self.system = 'Solar System'
+# NOW WE CAN CREATE A NEW INSTANCE OF THE PLANET HERE
 
-	def __init__(self,name,radius,gravity,system):
+mercury = 	Planet('Mercury',444444,8.9,'Solar System')
 
-		self.name = name 
-		self.radius = radius 
-		self.gravity = gravity
-		self.system = system
+# INVOKE THOSE METHODS
 
+mercury_mass = planet_mass(mercury.gravity,mercury.radius)
 
-	def orbit():
-		return f'{self.name} is orbitting in the {self.system}'
+mercury_vol = planet_vol(mercury.radius)
+
+print(f'The mass of {mercury.name}is : {mercury_mass}')
+
+print(f'The volume of {mercury.name} is : {mercury_vol}')
 
 
-#CREATE THE NEW INSTANCE OF THE CLASS
-
-planet = Planet()	
-
-print(f'The name of the planet is : {planet.name}')
-
-print(f'The radius of the planet is : {planet.radius}')
-
-print(f'The gravity of the planet is : {planet.gravity}')
-
-print(f'The system of the planet is : {planet.system}')
-
-print(planet.orbit())
-
-# CREATE NEW INSTANCE OF THE PLANET
-
-dwarfPlanet = Planet()
-
-print(f'The name of the planet is : {dwarfPlanet.name}')
-
-print(f'The radius of the planet is : {dwarfPlanet.radius}')
-
-print(f'The gravity of the planet is : {dwarfPlanet.gravity}')
-
-print(f'The system of the planet is : {dwarfPlanet.system}')
-
-print(dwarfPlanet.orbit())
-
-	# THIS INSTANCE ALSO GETTING THE SAME VALUES AS THE ONE INSTANCE WE CREATED ABOVE
-
-# CREATE A NEW INSTANCE OF THE SYSTEM
-
-pluto = Planet('Pluto',4000,5.6,'Solar System')
-
-print(f'The name of the planet is : {pluto.name}')
-
-print(f'The radius of the planet is : {pluto.radius}')
-
-print(f'The gravity of the planet is : {pluto.gravity}')
-
-print(f'The system of the planet is : {pluto.system}')
-
-print(pluto.orbit())
-
-# CREATE A NEW INSTANCE OF THE PLANET CLASS
-
-neptune = Planet('Neptune',50000,7.4.'Solar System')
-
-print(f'The name of the planet is: {neptune.name}')
-
-print(f'The radius of the planet is: {neptune.radius}')
-
-print(f'The gravity of the planet is: {neptune.gravity}')
-
-print(f'The system of the planet is: {neptune.system}')
-
-print(neptune.orbit())
-
-	
