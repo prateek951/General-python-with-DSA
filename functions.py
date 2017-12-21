@@ -2,20 +2,20 @@ def greet():
 	
 	print('Hello World')
 
-	#def is used to define functions in python
-greet() # Using parenthesis after the name of the function triggers the code property of the function	
 
-greet()	# You can trigger the code property of the function any number of times 
+greet()	#INVOKE THE GREET FUNCTION
 
-#Function with arguments
+
+greet()	# CAN BE INVOKED ANY NUMBER OF TIMES
+
 
 def greet(name,time):
 	
-	print(f'Good {time} {name}') 
+	print(f'Good {time} {name}')
 
-greet('Prateek','Morning')	# Triggers the greet function with arguments by passing Prateek and Morning as parameters
+greet('Prateek','Morning')
 
-# OUTPUT -- Good Morning Prateek
+#Good Morning Prateek
 
 name = input('Enter the name of the person')
 
@@ -23,7 +23,7 @@ time = input('Enter the time of the day')
 
 greet(name,time)	# Invoke the function with the values that we got from the input
 
-#DEFAULT PARAMETERS can be supplied to a function as well!
+#DEFAULT PARAMETERS
 
 def greeter(name='Prateek',time='morning'):
 
@@ -31,7 +31,9 @@ def greeter(name='Prateek',time='morning'):
 
 
 
-greeter('Navneet','night')	#Since we are supplying parameters in our function call,these parameters will override the default parameters in the above function
+greeter('Navneet','night')
+
+
 
 #CALCULATE THE AREA OF THE CIRCLE
 
@@ -45,6 +47,7 @@ radius = input('Enter the radius of the circle')
 radius = int(radius) #in previous statement radius was a string now it is typecasted to an integer
 
 area(radius)	#INVOKE THE FUNCTION TO CALCULATE THE AREA
+
 
 #CALCULATE THE VOLUME OF THE CIRCLE
 
@@ -60,7 +63,8 @@ def volume(radiuss,height):
 
 	return areaa*height
 
+
 volume = volume(radiuss,height)
 
-print(f'The volume of the circle is : {volume}')
+print('The volume of the circle is',volume)
 
